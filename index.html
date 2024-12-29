@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emily Samha - CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <h1 class="myname">Emily Samha</h1>
+        <nav class="nav-links">
+          <button class="nav-btn info">
+            <i class="fas fa-user"></i>
+            Personal Info
+          </button>
+          <button class="nav-btn skills">
+            <i class="fas fa-code"></i>
+            Skills
+          </button>
+          <button class="nav-btn lang">
+            <i class="fas fa-globe"></i>
+            Languages
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="contact-info">
+      <div class="container">
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>TEL: 050-656-5330</span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>EMAIL: emilysamha1993@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <a
+            href="https://www.linkedin.com/in/emily-samha-397077149/"
+            target="_blank"
+            >LinkedIn Profile</a
+          >
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/emilysa93" target="_blank"
+            >GitHub Portfolio</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <main class="container">
+      <section class="experience-section">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h3>Support Tier 3, Ucl-Group - Partner</h3>
+            <span class="date">February 2022 - Present</span>
+            <p>
+              <ul>
+                 <li>Tracking and analyzing data, developing business process optimization strategies.</li>
+                 <li>Investigating and resolving complex issues in real-time.</li>
+                 <li>Responsible for all business processes running on various servers and databases in the company - scheduling, monitoring, and tracking.</li>
+                 <li>Working with various databases, writing scripts in Unix, and performing complex queries in SQL.</li>
+                 <li>Working with CDR files, responsible for data mediation and formatting processes.</li>
+                
+             </ul>
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <h3>Support Tier 2, Novolog</h3>
+            <span class="date">February 2021 - August 2023</span>
+            <p>
+              <ul>
+                 <li>Handling complex issues related to code and programming.</li>
+                 <li>Collaborating with the support department, development teams, and product managers.</li>
+                 <li>Planning and leading new projects while meeting tight deadlines.</li>
+                 <li>Creating a widget for scheduling appointments based on client specifications using HTML, XML, SQL.</li>
+                 <li>Maintaining servers for IVR systems, appointment scheduling, and information websites for doctors in independent clinics.</li>
+             </ul>
+            </p>
+          </article>
+
+                    <article class="timeline-item">
+            <h3>Helpdesk, Taldor - Maccabi Healthcare Services</h3>
+            <span class="date">May 2017 - February 2021</span>
+            <p>
+              <ul>
+                 <li>Internal technical support for approximately 5000 users.</li>
+                 <li>Support for end-user equipment (computers, monitors, printers, scanners).</li>
+                 <li>Investigating support tickets, analyzing data, generating reports, and drawing conclusions.</li>
+                 <li>Developing and maintaining sites in SharePoint - internal information sites.</li>
+                
+             </ul>
+            </p>
+          </article>
+
+          <!-- Similar structure for other work experiences -->
+        </div>
+      </section>
+
+      <section class="education-section">
+        <h2 class="section-title">Education & Courses</h2>
+        <div class="education-grid">
+          <article class="education-item">
+            <h3>Professional Courses</h3>
+            <ul>
+              <li>QA (Quality assurance), John Bryce (2019-2020)</li>
+              <li>The Complete 2024 Web Development Bootcamp, Udemy</li>
+              <li>HTML, CSS, JS, React, Udemy</li>
+            </ul>
+          </article>
+          <br>
+          <article class="education-item">
+            <h3>Academic Education</h3>
+            <p>
+              Bachelor's degree in Economics<br />Open University (2017-2021)
+            </p>
+          </article>
+          <br>
+          <article class="education-item">
+            <h3>Academic Education</h3>
+            <p>
+              Undergraduate student in Computer Science.<br />Open University (2025-Present)
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal windows -->
+    <div class="modal" id="info-modal">
+      <div class="modal-content">
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <h3>About Me</h3>
+        <p>
+          Creative and analytical thinker with a quick and independent learning
+          ability. Passionate about challenges with experience in innovative
+          technologies and knowledge of programming languages.
+        </p>
+      </div>
+    </div>
+
+    <div class="modal" id="skills-modal">
+      <div class="modal-content">
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <h3>Technical Skills</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">XML</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">PLSQL</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="lang-modal">
+      <div class="modal-content">
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <h3>Languages</h3>
+        <div class="language-list">
+          <div class="language-item">
+            <span>Arabic</span>
+            <div class="proficiency-bar full"></div>
+          </div>
+          <div class="language-item">
+            <span>Hebrew</span>
+            <div class="proficiency-bar full"></div>
+          </div>
+          <div class="language-item">
+            <span>English</span>
+            <div class="proficiency-bar high"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p class="recommendations">
+          Recommendations will be delivered upon request
+        </p>
+        <p class="copyright">
+          Designed and developed by <span>Emily Samha</span> © 2024
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
